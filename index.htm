@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Siddharth Mathur</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Siddharth Mathur is a mobile app developer.">
+	<meta name="keywords" content="Siddharth Mathur, programmer, sysadmin, developer, California, United States, UX, usability, typography, css, html, jQuery, PHP, user experience, user interface, BuySellAds, Contrastly">
+	<meta name="author" content="Siddharth Mathur">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" href="http://i.imgur.com/v96O9oW.png">
+	<link rel="Shortcut Icon" href="http://i.imgur.com/v96O9oW.png" type="image/x-icon">
+	<script src="js/jquery.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+</head>
+<body>
+
+<main class="container">
+	<section class="content">
+		<h1>Siddharth Mathur</h1>
+		<p id="desc"></p>
+		<a href="https://github.com/sidward35" title="See my projects">My work</a>
+	</section>
+</main>
+
+<footer>
+	<a class="resume_button" href="http://msid.cf/" target=newtab title="Siddharth Mathur's Resume"><img src="icon/icon_aboutme-sign.svg" height="50" width="50"></a>
+	<a class="resume_button" href="https://github.com/sidward35" target=newtab title="Siddharth Mathur on GitHub"><img src="icon/icon_github-sign.svg" height="50" width="50"></a>
+	<a class="resume_button" href="https://www.linkedin.com/in/mathursiddharth2000" target=newtab title="Siddharth Mathur on LinkedIn"><img src="icon/icon_linkedin-sign.svg" height="50" width="50"></a>
+	<a class="resume_button" href="https://angel.co/mathursiddharth2000" target=newtab title="Siddharth Mathur on AngelList"><img src="icon/icon_angellist-sign.svg" height="50" width="50"></a>
+</footer>
+
+<script>
+var showText = function (target, message, index, interval) {
+	if (index < message.length) {
+		$(target).append(message[index++]);
+		setTimeout(function () { showText(target, message, index, interval); }, interval);
+	}
+}
+$(function () {
+	showText("#desc", "Mobile App Developer", 0, 50);
+});
+</script>
+
+</body></html>
