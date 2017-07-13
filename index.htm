@@ -7,7 +7,7 @@
 	<meta name="keywords" content="Siddharth Mathur, programmer, sysadmin, developer, California, United States, UX, usability, typography, css, html, jQuery, PHP, user experience, user interface, BuySellAds, Contrastly, Linux, IoT, internet of things">
 	<meta name="author" content="Siddharth Mathur">
 	<meta name="robots" content="index, follow">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=1366, initial-scale=1.0">
 	<link rel="apple-touch-icon" href="http://i.imgur.com/v96O9oW.png">
 	<link rel="Shortcut Icon" href="http://i.imgur.com/v96O9oW.png" type="image/x-icon">
 	<script src="js/jquery.js"></script>
@@ -17,7 +17,7 @@
 
 <main class="container">
 	<section class="content">
-		<a style="margin-bottom:5%; width: 15%;" href="https://github.com/sidward35?tab=repositories" title="See my projects">My work</a>
+		<a id="waddup" style="margin-bottom:5%; width: 15%;" href="https://github.com/sidward35?tab=repositories" title="See my projects">My work</a>
 		<h1 align="center">Siddharth Mathur</h1>
 		<p id="desc" align="center" style="margin-top:2.5%;"></p>
 		<p id="desc2" align="center" style="margin-top:2.5%;"></p>
@@ -41,7 +41,17 @@ var showText = function (target, message, index, interval) {
 }
 $(function () {
 	showText("#desc", "Software Engineer, Mobile App Developer,", 0, 25);
-	showText("#desc2", "Linux Enthusiast, IoT Learner", 0, 25);
 });
+</script>
+<script>
+var showText = function (target, message, index, interval) {
+	if (index < message.length) {
+		$(target).append(message[index++]);
+		setTimeout(function () { showText(target, message, index, interval); }, interval);
+	}
+}
+setTimeout(function() {
+  showText("#desc2", "Linux Enthusiast, IoT Learner", 0, 25);
+}, 1100);
 </script>
 </body></html>
