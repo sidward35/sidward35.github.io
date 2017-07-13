@@ -240,9 +240,11 @@ main.container section.content p {
 }
 main.container section.content a {
 	text-align: center;
+	align-self: left;
 	margin: 0 auto;
+	margin-bottom:5%;
 	display: inline-block;
-	width: auto;
+	width: 15%;
 	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 	font-style: normal;
 	font-weight: 300;
