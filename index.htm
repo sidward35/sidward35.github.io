@@ -17,9 +17,9 @@
 
 <main class="container">
 	<section class="content">
-		<h1>Siddharth Mathur</h1>
-		<p id="desc"></p>
-		<p id="desc2" style="margin-top:2%;"></p>
+		<h1 align="center" id="name"></h1>
+		<p id="desc" align="center"></p>
+		<p id="desc2" align="center" style="margin-top:2.5%;"></p>
 		<a href="https://github.com/sidward35?tab=repositories" title="See my projects">My work</a>
 	</section>
 </main>
@@ -40,9 +40,9 @@ var showText = function (target, message, index, interval) {
 	}
 }
 $(function () {
+	showText("#name", "Siddharth Mathur", 0, 50);
 	showText("#desc", "Software Engineer, Mobile App Developer,", 0, 25);
 	showText("#desc2", "Linux Enthusiast, IoT Learner", 0, 25);
 });
 </script>
-
 </body></html>
