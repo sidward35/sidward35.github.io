@@ -322,10 +322,13 @@ footer a.li:hover {
 		font-size: 8px;
 	}
 	main.container section.content a {
-		padding: 1.55rem 1.5rem;
-		font-size: 1.6rem;
+		padding: 1.55rem 2.0rem;
+		font-size: 1.0rem;
 	}
 	footer a {
 		font-size: 25px;
 	}
+	.desktop-only {
+     display:none;
+  }
 }
