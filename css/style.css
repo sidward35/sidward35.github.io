@@ -255,6 +255,7 @@ main.container section.content a {
 	text-transform: uppercase;
 	color: #fff;
 	transition: all 0.5s ease;
+	width:15%;
 }
 main.container section.content a:hover {
 	background: #21211f;
