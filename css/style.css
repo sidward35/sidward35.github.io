@@ -303,7 +303,11 @@ footer a.li:hover {
 		display: block;
 		padding: 1.35rem 1.5rem;
 		font-size: 1.4rem;
+		width:25%;
 	}
+	.desktop-only {
+     		display:none;
+  	}
 }
 @media all and (max-width: 600px) {
 	html, body {
@@ -312,10 +316,14 @@ footer a.li:hover {
 	main.container section.content a {
 		padding: 1.45rem 1.5rem;
 		font-size: 1.5rem;
+		width:25%;
 	}
 	footer a {
 		font-size: 28px;
 	}
+	.desktop-only {
+     		display:none;
+  	}
 }
 @media all and (max-width: 480px) {
 	html, body {
@@ -324,11 +332,12 @@ footer a.li:hover {
 	main.container section.content a {
 		padding: 1.55rem 2.0rem;
 		font-size: 1.0rem;
+		width:25%;
 	}
 	footer a {
 		font-size: 25px;
 	}
 	.desktop-only {
-     display:none;
-  }
+     		display:none;
+  	}
 }
