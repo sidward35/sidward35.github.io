@@ -309,6 +309,9 @@ footer a.li:hover {
 	.desktop-only {
      		display:none;
   	}
+  	main.container section.content h1 {
+	margin-bottom:50%;
+}
 }
 @media all and (max-width: 600px) {
 	html, body {
@@ -325,6 +328,9 @@ footer a.li:hover {
 	.desktop-only {
      		display:none;
   	}
+  	main.container section.content h1 {
+	margin-bottom:50%;
+}
 }
 @media all and (max-width: 480px) {
 	html, body {
@@ -341,4 +347,7 @@ footer a.li:hover {
 	.desktop-only {
      		display:none;
   	}
+  	main.container section.content h1 {
+	margin-bottom:50%;
+}
 }
