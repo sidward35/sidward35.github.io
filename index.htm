@@ -11,7 +11,7 @@
 	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
 	<link rel="apple-touch-icon" href="http://i.imgur.com/v96O9oW.png">
 	<link rel="Shortcut Icon" href="http://i.imgur.com/v96O9oW.png" type="image/x-icon">
-	
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,7 +20,7 @@
 	  ga('create', 'UA-102698277-1', 'auto');
 	  ga('send', 'pageview');
 	</script>
-	
+
 	<script src="js/jquery.js"></script>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 </head>
@@ -53,14 +53,6 @@ var showText = function (target, message, index, interval) {
 $(function () {
 	showText("#desc", "Software Engineer, Mobile App Developer,", 0, 40);
 });
-</script>
-<script>
-var showText = function (target, message, index, interval) {
-	if (index < message.length) {
-		$(target).append(message[index++]);
-		setTimeout(function () { showText(target, message, index, interval); }, interval);
-	}
-}
 setTimeout(function() {
   showText("#desc2", "Linux Enthusiast, IoT Learner", 0, 40);
 }, 1975);
