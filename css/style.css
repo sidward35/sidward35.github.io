@@ -262,6 +262,24 @@ main.container section.content a:hover {
 	transition: all 0.5s ease;
 }
 
+.tippy-tooltip.gradient-theme {
+	font-family: arial;
+	font-weight: bold;
+  background-color: transparent;
+}
+
+.tippy-tooltip.gradient-theme .tippy-backdrop{
+	font-family: arial;
+	font-weight: bold;
+	background: linear-gradient(to right, green, #4caf50);
+}
+
+.tippy-tooltip.gradient-theme .tippy-content {
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+}
+
 /***** Footer *****/
 footer {
 	position: absolute;
