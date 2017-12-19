@@ -271,7 +271,7 @@ main.container section.content a:hover {
 .tippy-tooltip.gradient-theme .tippy-backdrop{
 	font-family: arial;
 	font-weight: bold;
-	background: linear-gradient(to right, green, #4caf50);
+	background: linear-gradient(to right, green, #54c458);
 }
 
 .tippy-tooltip.gradient-theme .tippy-content {
