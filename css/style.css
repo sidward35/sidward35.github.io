@@ -378,4 +378,7 @@ footer a.li:hover {
 	.waddupyo2 {
 		visibility: hidden;
 	}
+	.mobile-only {
+		visibility: hidden;
+	}
 }
