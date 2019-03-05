@@ -41,7 +41,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .resume_button{
 	background-image: url(icon/icon_aboutme-sign.svg);
-	padding: 5 0 0 5px;
+	padding: 0 0 0 10px;
 	border: 0px;
 	margin: 0px;
 }
@@ -51,7 +51,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	background-repeat: no-repeat;
 	width: 50px;
 	height: 50px;
-	padding: 5 0 0 5px;
+	padding: 0 0 0 10px;
 	border: 0px;
 	margin: 0px;
 }
