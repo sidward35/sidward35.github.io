@@ -23,7 +23,7 @@
 		</script>
 
 		<script src="js/jquery.js"></script>
-		
+
 		<link rel="apple-touch-icon" href="http://i.imgur.com/v96O9oW.png">
 		<link rel="Shortcut Icon" href="http://i.imgur.com/v96O9oW.png" type="image/png">
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -36,6 +36,7 @@
 				<h1 align="center">Siddharth Mathur</h1>
 				<p id="desc" style="margin-top:2.5%;" align="center" class="desktop-only"></p>
 				<p id="desc2" style="margin-top:2.5%;" align="center" class="desktop-only"></p>
+				<a id="waddup2" style="margin-bottom:5%;" href="http://msid.cf/" title="Learn more about me!" class="waddupyo2">My resume</a>
 			</section>
 		</main>
 
@@ -56,6 +57,12 @@
 				distance: 30
 			})
 			tippy('.waddupyo', {
+				animation: 'fade',
+				placement: 'top',
+				theme: 'gradient',
+				interactive: true
+			})
+			tippy('.waddupyo2', {
 				animation: 'fade',
 				placement: 'top',
 				theme: 'gradient',

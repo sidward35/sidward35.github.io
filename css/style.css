@@ -327,6 +327,9 @@ footer a.li:hover {
 	.desktop-only {
      		display:none;
   	}
+	.waddupyo {
+			visibility: hidden;
+		}
   	main.container section.content h1 {
 	margin-bottom:50%;
 }
@@ -346,6 +349,9 @@ footer a.li:hover {
 	.desktop-only {
      		display:none;
   	}
+	.waddupyo {
+			visibility: hidden;
+		}
   	main.container section.content h1 {
 	margin-bottom:50%;
 }
@@ -365,7 +371,15 @@ footer a.li:hover {
 	.desktop-only {
      		display:none;
   	}
+	.waddupyo {
+		visibility: hidden;
+	}
   	main.container section.content h1 {
 	margin-bottom:50%;
 }
+}
+@media(min-width: 741px) {
+	.waddupyo2 {
+		visibility: hidden;
+	}
 }
