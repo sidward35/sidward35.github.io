@@ -325,7 +325,8 @@ footer a.li:hover {
 		width:25%;
 	}
 	.desktop-only {
-     		display:none;
+				height: 1px;
+				display:none;
   	}
 	.waddupyo {
 			visibility: hidden;
@@ -347,6 +348,7 @@ footer a.li:hover {
 		font-size: 28px;
 	}
 	.desktop-only {
+				height: 1px;
      		display:none;
   	}
 	.waddupyo {
@@ -369,6 +371,7 @@ footer a.li:hover {
 		font-size: 25px;
 	}
 	.desktop-only {
+				height: 1px;
      		display:none;
   	}
 	.waddupyo {
