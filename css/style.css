@@ -286,7 +286,6 @@ footer {
 	bottom: 35px;
 	text-align: center;
 	display: block;
-	float: left;
 	width: 100%;
 }
 footer a {
@@ -325,14 +324,12 @@ footer a.li:hover {
 		width:25%;
 	}
 	.desktop-only {
-				height: 1px;
 				display:none;
   	}
 	.waddupyo {
 			visibility: hidden;
 		}
   	main.container section.content h1 {
-	margin-bottom:50%;
 }
 }
 @media all and (max-width: 600px) {
@@ -348,14 +345,12 @@ footer a.li:hover {
 		font-size: 28px;
 	}
 	.desktop-only {
-				height: 1px;
      		display:none;
   	}
 	.waddupyo {
 			visibility: hidden;
 		}
   	main.container section.content h1 {
-	margin-bottom:50%;
 }
 }
 @media all and (max-width: 480px) {
@@ -371,14 +366,12 @@ footer a.li:hover {
 		font-size: 25px;
 	}
 	.desktop-only {
-				height: 1px;
      		display:none;
   	}
 	.waddupyo {
 		visibility: hidden;
 	}
   	main.container section.content h1 {
-	margin-bottom:50%;
 }
 }
 @media(min-width: 741px) {
