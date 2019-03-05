@@ -379,6 +379,9 @@ footer a.li:hover {
 		visibility: hidden;
 	}
 	.mobile-only {
-		visibility: hidden;
+		display: none;
+	}
+	main.container section.content p id.desc2 {
+		margin-bottom:15%;
 	}
 }
