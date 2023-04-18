@@ -23,29 +23,8 @@
 		  ga('send', 'pageview');
 		</script>
 
-		<script src="js/jquery.js"></script>
-
-		<script>
-		$(document).ready(function() {
-			$.ajax({
-				type: "POST",
-				url: "https://maker.ifttt.com/trigger/heroku_app/with/key/c1rbTcV6gKEl94vAuT3vah",
-				data: {"value1":"Personal Website"}
-			 });
-			});
-		</script>
-		
-		
-		<script src="https://cdn.signalfx.com/o11y-gdi-rum/latest/splunk-otel-web.js"
-		crossorigin="anonymous"></script>
-		    <script>
-			SplunkRum.init({
-			beaconUrl: 'https://rum-ingest.us1.signalfx.com/v1/rum',
-			rumAuth: 'JUeo4BsZeSWJ8QA7RKV2yA',
-			app: 'personal-website'
-		    });
-		</script>
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	
 		<link rel="apple-touch-icon" href="https://i.imgur.com/v96O9oW.png">
 		<link rel="Shortcut Icon" href="https://i.imgur.com/v96O9oW.png" type="image/png">
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
